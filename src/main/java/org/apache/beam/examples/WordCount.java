@@ -105,7 +105,7 @@ public class WordCount {
 
       // Output each word encountered into the output PCollection.
       for (String word : words) {
-        if (!word.isEmpty() && word.startsWith("m")) {//変更点
+        if (!word.isEmpty() && word.startsWith("n")) {//変更点
           receiver.output(word);
         }
       }
